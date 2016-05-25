@@ -1,5 +1,6 @@
 # Personal-belongings-security-alarm
-### Jonathan Hull
+### author: Jonathan Hull
+### date: May 24, 2016
 
 This repository contains files for a term project on building an RC feedback oscillator with the LM380 opamp shown in the following schematic.  This was part of ENGR12L, Engineering Circuits Lab, at Monterey Peninsula College in the Spring 2016 semester.  This project was also part of the curriculum in an electric circuits course at Ohio Northern University in 2014-15 [1].
 
