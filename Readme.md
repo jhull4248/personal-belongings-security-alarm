@@ -42,8 +42,8 @@ This project shows how a sine wave can be generated with a handful of low cost c
 
 # References
 
-[1].  N. Alsbou, K. Al-Olimat, V. Labay, and H. LeBlanc, "Introducing Students to Electronic Devices and Electric Circuit Applications at Early Level in the Engineering Curriculum through Multiple Projects,"  122nd ASEE Annual Conference and Exposition, Seattle, WA, June 14-17, 2015. https://www.asee.org/public/conferences/56/papers/12964/download. [link](https://www.asee.org/public/conferences/56/papers/12964/download).
+[1].  N. Alsbou, K. Al-Olimat, V. Labay, and H. LeBlanc, "Introducing Students to Electronic Devices and Electric Circuit Applications at Early Level in the Engineering Curriculum through Multiple Projects,"  122nd ASEE Annual Conference and Exposition, Seattle, WA, June 14-17, 2015. https://www.asee.org/public/conferences/56/papers/12964/download.
 
-[2]. "Pull Pin Security Alarm System," http://www.electronicshub.org/pull-pin-security-alarm-system/, Aug. 5, 2015. [link](http://www.electronicshub.org/pull-pin-security-alarm-system/).
+[2]. "Pull Pin Security Alarm System," http://www.electronicshub.org/pull-pin-security-alarm-system/, Aug. 5, 2015.
 
-[4].  S. Monk, Make your own PCBs with Eagle: from schematic designs to finished boards, McGraw-Hill, 2014.
+[3].  S. Monk, Make your own PCBs with Eagle: from schematic designs to finished boards, McGraw-Hill, 2014.
