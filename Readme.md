@@ -2,7 +2,7 @@
 author: Jonathan Hull  
 date: May 24, 2016  
 
-This repository contains files for a term project on building an RC feedback oscillator with the LM380 opamp shown in the following schematic.  This was part of ENGR12L, Engineering Circuits Lab, at Monterey Peninsula College in the Spring 2016 semester.  This project was also part of the curriculum in an electric circuits course at Ohio Northern University in 2014-15 [1].
+This repository contains files for a term project on building an RC feedback oscillator with the LM380 opamp shown in the following schematic.  This was part of ENGR12L, Engineering Circuits Lab, at Monterey Peninsula College in the Spring 2016 semester.  
 
 ![schematic 050116](images/circuit\ lab\ schematic.jpg)
 
@@ -10,9 +10,12 @@ The primary feature of the circuit is an RC phase shift oscillator that should p
 
 # Project steps
 
-The project was started in late April with a target completion date of June 2, 2016.  The first step was implementation of the design in circuitlab.  This helped gaining an initial understanding of the layout of the circuit but it was not possible to simulate it because a model for the LM380 opamp could not be located.  Nevertheless, circuitlab contains links to parts at Jameco that were used to order components that were not in the kit provided with the course.  Those parts were ordered and a prototype was constructed on a breadboard.
+The project was started in late April with a target completion date of June 2, 2016.  
+The first step was implementation of the design in circuitlab.  
+This helped in understanding the circuit but unfortunately a model for the LM380 opamp could not be located and thus circuitlab could not run simulations of the circuit.
+Nevertheless, circuitlab does contain links to parts that were quite useful in ordering the components needed to build a prototype.
 
-The prototype shown below was constructed with the 14 pin version of the LM380 because it was readily available from Jameco.  It was initially tested with a 6V power supply because [2] indicated that was preferred.  However, that did not work correctly.  A 9V supply was adopted based on the observation that it was used in [1].  After that, the prototype worked well.
+The prototype shown below was constructed with the 14 pin version of the LM380 because it was readily available.   The prototype was tested with a 6V power supply because [2] indicated that was preferred.  However, that did not work correctly.  A 9V supply was adopted because it was used in [1].  After that, the prototype worked well.
 
 ![breadboard prototype 050816](/images/prototype.jpg)
 
@@ -31,16 +34,19 @@ The final version of the board shown below was produced by soldering the compone
 ![final](images/final.jpg)
 ![profile view](images/profile.jpg)
 
+# Experimental Results
+
+Verification of the theoretical prediction that the circuit would produce a 4 kHz sine wave was done by connecting the first channel of the Digilent Analog Discovery 2 USB oscilloscope to the speaker terminals.  The voltage trace is shown below.  We see a waveform that's shaped like a sine wave, but not as smooth as it should be.  The frequency of the waveform is 4.09 kHz which is within about 2% of the theoretically predicted value of 4.0 kHz.  Hoo hah!  A video illustrating the operation of the circuit is available at https://youtu.be/Xsj34tHOlkY
+
+![scope plot](images/scope_plot.jpg)
+
 # Files
 
-The Eagle schematic, board file and Gerber files in the format required by itead are provided.  
+The Eagle schematic, board file and Gerber files in the format required by itead are provided in the github repository.
 
 # Conclusions
 
 This project shows how a sine wave can be generated with a handful of low cost components and is an excellent example of a circuit with practical applications.  Production of the PCB was an interesting addition to the project that shows how an abstract design expressed in a schematic can be reduced to a form that could be used in a real product.  First hand knowledge of this process is something that every electrical enginer and computer scientist should have as they progress through their career.
-
-
-
 
 # References
 
