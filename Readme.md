@@ -28,13 +28,13 @@ The Eagle package was relatively straightforward to use because of the excellent
 
 ![board layout](/images/board.jpg)
 
-The Eagle package also outputs Gerber files.  After getting quotes from three vendors, [itead.cc](http://itead.cc) was chosen.  They agreed to produce 12 "bare boards" (without components soldered on) for $9.90.  The Gerber files were uploaded to their web site on Friday May 13 and the boards were delivered on Monday May 23.  This was a relatively simple two-layer design with all "through hole" components.  Both sides of the bare board are shown below.
+The Eagle package also outputs Gerber files.  After getting quotes from three vendors, [itead.cc](http://itead.cc) was chosen because they agreed to produce 12 "bare boards" (without components soldered on) for $9.90.  The Gerber files were uploaded to their web site on Friday May 13 and the boards were delivered on Monday May 23.  Both sides of the bare board that itead produced are shown below.
 
 The boards were ordered from itead as a two layer PCB, 5cm x 5cm max, 1.6mm thick, HASL surface finish, 100% E-test, and 1 oz. thick copper.  The traces were 10mil wide with 20mil minimum space between traces.  These are normal parameters and were perfectly adequate for this design.
 
 ![bare](images/bare.jpg)
 
-The final version of the board shown below was produced by soldering the components on one of the bare boards.  Happily, this worked correctly the first time it was tried.  Needless to say, this was a huge relief since a mistake could only be corrected with another ten day turnaround from itead.
+The final version of the board shown below was produced by soldering the components on one of the bare boards.  Happily, this worked correctly the first time.  Needless to say, this was a huge relief since a mistake could only be corrected with another ten day turnaround from itead.
 
 ![final](images/final.jpg)
 ![profile view](images/profile.jpg)
@@ -51,7 +51,7 @@ The Eagle schematic, board file and Gerber files in the format required by itead
 
 # Conclusions
 
-This project shows how a sine wave can be generated with a handful of low cost components and is an excellent example of a circuit with practical applications.  Production of the PCB was an interesting addition to the project that shows how an abstract design expressed in a schematic can be reduced to a form that could be used in a real product.  First hand knowledge of this process is something that every electrical enginer and computer scientist should have as they progress through their career.
+This project shows how a sine wave can be generated with a handful of low cost components and is an excellent example of a circuit with practical applications.  Production of the PCB was an interesting addition to the project that shows how an abstract design expressed in a schematic can be reduced to a form that could be used in a real product.  First hand knowledge of this process is something that every electrical enginer and computer scientist should have as they progress through their career and imagine different ways in which their ideas could end up in a product that normal people would pay for.  A printed circuit board is one way that could happen.  
 
 # References
 
