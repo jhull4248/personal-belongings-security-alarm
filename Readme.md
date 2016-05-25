@@ -12,7 +12,7 @@ The project was started in late April with a target completion date of June 2, 2
 
 The prototype shown below was constructed with the 14 pin version of the LM380 because it was readily available from Jameco.  It was initially tested with a 6V power supply because [2] indicated that was preferred.  However, that did not work correctly.  A 9V supply was adopted based on the observation that it was used in [1].  After that, the prototype worked well.
 
-![breadboard prototype 050816](/images/prototype\ 050816.jpg)
+![breadboard prototype 050816](/images/prototype.jpg)
 
 An additional goal of building a printed circuit board (PCB) version of the circuit was pursued at the author's own volition.  The Eagle PCB design package was used because of its popularity in the Arduino community and the the fact that the free version would suffice.  
 
