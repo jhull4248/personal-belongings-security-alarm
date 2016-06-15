@@ -24,7 +24,7 @@ An additional goal of building a printed circuit board (PCB) for the circuit was
 
 After some analysis of the available alternatives, the Eagle software PCB design package was chosen because of its popularity in the Arduino community and the fact that it's free for educational purposes.  Eagle requires the user to provide a schematic and it creates a corresponding design for a PCB.  The design shows where components are placed on the board and the precise location of tracks between each component.  The tracks correspond to wires in the prototype that will become copper traces on the PCB.
 
-The Eagle package was relatively straightforward to use because of the excellent directions in [3].  Within a day, the following design for a 2x2cm two-layer board was complete.  The components and holes for their wires are also shown as well as the traces between holes.  The brown traces are on the top layer of the board.  The blue traces are on the bottom.
+The Eagle package was relatively straightforward to use because of the excellent directions in [3].  Within a day, the following design for a 5x5cm two-layer board was complete.  The components and holes for their wires are also shown as well as the traces between holes.  The brown traces are on the top layer of the board.  The blue traces are on the bottom.
 
 ![board layout](/images/board.jpg)
 
